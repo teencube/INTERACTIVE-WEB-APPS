@@ -10,7 +10,7 @@ const divider = '----------------------------------';
 
 // Only change below this line
 
-const owed =  Math.abs(leoBalance ) + Math.abs(sarahBalance);
+const owed =  Math.abs(parseInt(leoBalance) ) + Math.abs(parseInt(sarahBalance));
 const leo = `${leoName} ${leoSurname} Owed: R ${parseFloat(leoBalance ).toFixed(2)}`;
 const sarah = `${sarahName} ${sarahSurname} Owed: R ${parseFloat(sarahBalance ).toFixed(2)}`;
 const total = `Total amount owed: R ${owed.toFixed(2)}`;
