@@ -16,6 +16,7 @@ const extractBiggest = () => {
 	const firstLast = first[first.length -1];
   const secondLast = second[second.length -1];
 	const thirdLast = third[third.length -1];
+console.log(firstLast,secondLast ,thirdLast);
 
 if (firstLast > secondLast && firstLast > thirdLast) {
 	first.pop();
